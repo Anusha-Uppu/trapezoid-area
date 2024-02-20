@@ -13,6 +13,7 @@ public class logic {
         return additionresult;
     }
     public static void main(String args[]){
-        addition();
+        int additionresult=addition();
+        System.out.println(additionresult);
     }
 }
